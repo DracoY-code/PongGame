@@ -4,7 +4,7 @@
     size: 50, 50
     canvas:
         Ellipse:
-            source: 'reddit-logo.png'
+            source: 'blue-ball.png'
             pos: self.pos
             size: self.size
 
@@ -23,6 +23,10 @@
         Rectangle:
             pos: self.center_x - 5, 0
             size: 10, self.height
+    canvas.before:
+        Rectangle:
+            source: 'nebula.jpg'
+            size: self.width, self.height
     Label:
         font_size: 70
         center_x: root.width / 4
