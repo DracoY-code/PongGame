@@ -1,5 +1,3 @@
-# Pong Game :ping_pong:
-
 ### Improvements
 
 - [ ] Add menu to control the gameplay
